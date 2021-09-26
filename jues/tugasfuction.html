@@ -1,0 +1,35 @@
+
+<head>
+<script type="text/Javascript">
+      
+    count = () =>{
+ 
+      let panjang = document.getElementById('panjang').value;
+      let lebar = document.getElementById('lebar').value;
+      let hasil = panjang * lebar;
+      document.getElementById('hasil').value = hasil;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="card col-sm-4">
+      <div class="card-header">
+        <h4>Hitung Luas Persegi Panjang</h4>
+      </div>
+      <div class="card-body">
+        Panjang
+        <input type="number" id="panjang" class="form-control">
+        Lebar
+        <input type="number" id="lebar" class="form-control">
+        <button type="button" class="btn btn-info btn-block"
+        onclick="count()">
+          Hitung
+        </button>
+        Hasil
+        <input type="text" id="hasil" class="form-control" readonly>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

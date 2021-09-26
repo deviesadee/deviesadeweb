@@ -1,0 +1,21 @@
+.bali {
+    position: relative;
+    
+    background: #f8f8f8;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+
+}
+  
+  .bali button:hover,.bali button:active,.bali button:focus {
+    background: #04e067;}
+  .surabaya {
+    position: relative;
+    background: #f8f8f8;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+   
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
